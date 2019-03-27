@@ -1,6 +1,8 @@
 # tsbuildinfo-no-rebuild
 Repro of a bug in typescript 3.4-RC
 
+This is fixed in typescript 3.4.0-dev.20190327.
+
 Repro:
 1. `yarn` to install dependencies
 2. `yarn build` to build; compilation succeeds, and a tsconfig.tsbuildinfo file is created
